@@ -1,0 +1,218 @@
+Start building sites … 
+hugo v0.92.2+extended linux/amd64 BuildDate=2023-01-31T11:11:57Z VendorInfo=ubuntu:0.92.2-1ubuntu0.1
+
+                   | ZH-CN  
+-------------------+--------
+  Pages            |    43  
+  Paginator pages  |     5  
+  Non-page files   |     8  
+  Static files     |     0  
+  Processed images |     1  
+  Aliases          |    20  
+  Sitemaps         |     1  
+  Cleaned          |     0  
+
+Built in 180 ms
+Watching for changes in /home/blog/{archetypes,content,data,layouts,static,themes}
+Watching for config changes in /home/blog/config.yaml, /home/blog/themes/hugo-theme-stack/config.yaml
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 0.0.0.0)
+Press Ctrl+C to stop
+
+Change detected, rebuilding site.
+2024-08-06 20:31:55.696 +0800
+Template changed "/home/blog/layouts/index.html": WRITE
+Total in 83 ms
+
+Change detected, rebuilding site.
+2024-08-06 20:33:06.197 +0800
+Total in 50 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:08:29.696 +0800
+Source changed "/home/blog/content/post/miniforge": CREATE
+Total in 18 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:08:53.197 +0800
+Source changed "/home/blog/content/post/miniforge": RENAME
+Total in 19 ms
+adding created directory to watchlist /home/blog/content/post/miniforge
+
+Change detected, rebuilding site.
+2024-08-08 02:09:02.697 +0800
+Total in 16 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:09:36.697 +0800
+Source changed "/home/blog/content/post/miniforge/minforge": CREATE
+Total in 22 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:10:03.697 +0800
+Source changed "/home/blog/content/post/miniforge/minforge": RENAME
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": CREATE
+Total in 21 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:11:25.697 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 18 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:13:17.697 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 27 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:13:35.197 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 19 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:13:47.196 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 17 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:14:18.697 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 24 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:16:00.197 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 20 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:18:44.197 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 21 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:19:56.197 +0800
+Source changed "/home/blog/content/post/miniforge/miniforge官网.png": CREATE
+Total in 18 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:19:56.697 +0800
+Source changed "/home/blog/content/post/miniforge/miniforge官网.png": WRITE
+Total in 19 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:19:57.197 +0800
+Source changed "/home/blog/content/post/miniforge/miniforge官网.png": WRITE
+Total in 23 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:19:57.697 +0800
+Source changed "/home/blog/content/post/miniforge/miniforge官网.png": WRITE
+Total in 44 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:21:21.197 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 18 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:22:56.697 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 18 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:23:23.196 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 18 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:25:46.196 +0800
+Source changed "/home/blog/content/post/miniforge/miniforge官网.png": RENAME
+Source changed "/home/blog/content/post/miniforge/miniforge_org.png": CREATE
+Total in 21 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:25:52.196 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 17 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:27:28.696 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 19 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:28:05.696 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 18 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:28:25.696 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 21 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:28:54.197 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 17 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:29:08.196 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 22 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:29:09.196 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 28 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:29:16.196 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 21 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:29:34.697 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 17 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:31:43.196 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 22 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:32:18.197 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 19 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:32:43.696 +0800
+Source changed "/home/blog/content/post/markdown-syntax/index.md": WRITE
+Total in 25 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:33:58.696 +0800
+Source changed "/home/blog/content/post/markdown-syntax/miniforge_org.png": WRITE
+Total in 24 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:34:23.697 +0800
+Source changed "/home/blog/content/post/markdown-syntax/index.md": WRITE
+Total in 24 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:34:38.197 +0800
+Source changed "/home/blog/content/post/markdown-syntax/index.md": WRITE
+Total in 21 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:35:15.197 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 17 ms
+
+Change detected, rebuilding site.
+2024-08-08 02:35:20.197 +0800
+Source changed "/home/blog/content/post/miniforge/minforge_install.md": WRITE
+Total in 18 ms

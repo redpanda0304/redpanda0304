@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Python on RedPanda&#39;s Note</title>
+        <link>http://localhost:1313/categories/python/</link>
+        <description>Recent content in Python on RedPanda&#39;s Note</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/python/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>miniforge3安装</title>
+        <link>http://localhost:1313/p/miniforge/</link>
+        <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/miniforge/</guid>
+        <description>&lt;img src="http://localhost:1313/p/miniforge/miniforge-org.png" alt="Featured image of post miniforge3安装" /&gt;&lt;hr&gt;
+&lt;h2 id=&#34;miniforge3安装下载&#34;&gt;miniforge3安装下载
+&lt;/h2&gt;&lt;p&gt;miniforge是一个完全开源免费的pyhton包管理软件，可以在商业环境下暂时替代anaconda的python环境管理功能。可以兼容常用的conda命令。&lt;/p&gt;
+&lt;p&gt;miniforge的官方网址：&lt;a class=&#34;link&#34; href=&#34;https://conda-forge.org/miniforge/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://conda-forge.org/miniforge/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/miniforge/miniforge-org.png&#34;
+	width=&#34;2727&#34;
+	height=&#34;1894&#34;
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;miniforge官网&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;143&#34;
+		data-flex-basis=&#34;345px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;其中资源是托管在github上的，国内的用户如果下载卡顿可以去清华大学镜像站进行下载：&lt;a class=&#34;link&#34; href=&#34;https://mirrors.tuna.tsinghua.edu.cn/github-release/conda-forge/miniforge/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://mirrors.tuna.tsinghua.edu.cn/github-release/conda-forge/miniforge/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/miniforge/miniforge-tsinghua.png&#34;
+	width=&#34;2569&#34;
+	height=&#34;691&#34;
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;清华镜像源&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;371&#34;
+		data-flex-basis=&#34;892px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;LatestRelease/&lt;/code&gt;目录是最新的版本资源，&lt;code&gt;Release 24.3.0-0/&lt;/code&gt;目录也是最新24.3.0-0的版本资源。这里面有名字叫miniforge和mamambaforge的资源。这相当与两个分支，具体的区别很小，但是官方建议安装miniforge。&lt;/p&gt;
+&lt;p&gt;需要根据cpu的指令集和操作系统来选择对应的版本进行下载。目前所需的x64指令集、windows操作系统，因此选择&lt;code&gt;Miniforge3-Windows-x86_64.exe&lt;/code&gt;下载。
+&lt;img src=&#34;http://localhost:1313/p/miniforge/release.png&#34;
+	width=&#34;2368&#34;
+	height=&#34;226&#34;
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;miniforge下载&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;1047&#34;
+		data-flex-basis=&#34;2514px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;下载完毕点击进行安装。一直点继续。这里可以选择all useer，just me只是对当前windows用户安装，all useer是以管理员安装，所有用户都可用，需要管理员权限。
+&lt;img src=&#34;http://localhost:1313/p/miniforge/install1.png&#34;
+	width=&#34;754&#34;
+	height=&#34;585&#34;
+	
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;128&#34;
+		data-flex-basis=&#34;309px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;选择安装目录，注意，这里的安装目录&lt;strong&gt;不能有中文&lt;/strong&gt;，否则会有奇奇怪怪的问题。
+&lt;img src=&#34;http://localhost:1313/p/miniforge/install2.png&#34;
+	width=&#34;754&#34;
+	height=&#34;585&#34;
+	
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;128&#34;
+		data-flex-basis=&#34;309px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;三个选项，可以都勾选上&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在开始菜单创建快捷方式&lt;/li&gt;
+&lt;li&gt;将miniforge3注册为系统的python环境。允许其他程序VSCode、PyCharm等可以自动检测miniforge3作为主要的python环境&lt;/li&gt;
+&lt;li&gt;完成清除后清除包缓存&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/miniforge/install3.png&#34;
+	width=&#34;754&#34;
+	height=&#34;585&#34;
+	
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;128&#34;
+		data-flex-basis=&#34;309px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;安装完成之后还需要配置环境变量。anaconda无需环境变量，但是miniforge需要手动配置环境变量。&lt;/p&gt;
+&lt;h2 id=&#34;配置环境变量&#34;&gt;配置环境变量
+&lt;/h2&gt;&lt;p&gt;对于windows系统，需要配置在 &lt;code&gt;PATH&lt;/code&gt;里面配置&lt;code&gt;D:\miniforge&lt;/code&gt;、&lt;code&gt;D:\miniforge\Scripts&lt;/code&gt;、&lt;code&gt;C:\miniforge\Library\bin&lt;/code&gt;三个目录的环境变量。&lt;code&gt;\Scripts&lt;/code&gt;目录下 有&lt;code&gt;pip.exe&lt;/code&gt;、&lt;code&gt;conda.exe&lt;/code&gt;、&lt;code&gt;mamba.exe&lt;/code&gt; 等文件，如果配置错误可能会到这些命令用不了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/miniforge/env-set.png&#34;
+	width=&#34;1140&#34;
+	height=&#34;942&#34;
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;配置环境变量&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;121&#34;
+		data-flex-basis=&#34;290px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;环境变量配置完成之后，新打开shell，输入&lt;code&gt;mamba -V&lt;/code&gt;查看版本。miniforge最小化包含了conda和mamba。两者常用命令通用。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/miniforge/cmd.png&#34;
+	width=&#34;1368&#34;
+	height=&#34;685&#34;
+	
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;199&#34;
+		data-flex-basis=&#34;479px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;miniforge常用命令&#34;&gt;miniforge常用命令
+&lt;/h2&gt;&lt;p&gt;conda常用的命令，miniforge都兼容，同时也可以使用mamba命令去替换conda命令，在解析包依赖时mamba命令有时效率更高。在shell中初次执行conda命令可能需要输入&lt;code&gt;conda init&lt;/code&gt;命令进行初始化，然后重新打开shell&lt;/p&gt;
+&lt;h3 id=&#34;查看帮助&#34;&gt;查看帮助
+&lt;/h3&gt;&lt;p&gt;这个很有用，可以查看命令，如果要查看具体命令的用法可以在命令后加-h&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda -h
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;查看当前环境&#34;&gt;查看当前环境
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda env list
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;激活环境&#34;&gt;激活环境
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda activate --name
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;新建环境&#34;&gt;新建环境
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda create  -n --name
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;新建环境指定python版本&#34;&gt;新建环境指定python版本
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda create  -n &lt;span class=&#34;nb&#34;&gt;test&lt;/span&gt;  &lt;span class=&#34;nv&#34;&gt;python&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;3.7
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;指定镜像源&#34;&gt;指定镜像源
+&lt;/h3&gt;&lt;p&gt;conda create -n test python=3.9 -c &lt;a class=&#34;link&#34; href=&#34;https://mirrors.sustech.edu.cn/anaconda/pkgs/main/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://mirrors.sustech.edu.cn/anaconda/pkgs/main/&lt;/a&gt; -y&lt;/p&gt;
+&lt;h3 id=&#34;移除环境&#34;&gt;移除环境
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda remove  -n --name
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;移除包&#34;&gt;移除包
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda remove --name
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;查看当前conda配置&#34;&gt;查看当前conda配置
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda info
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;miniforge替换清华源&#34;&gt;miniforge替换清华源
+&lt;/h2&gt;&lt;p&gt;由于默认的conda镜像源有时速度会很慢，因此可以替换成国内的源，这里替换成了清华源，也有中科大源、南方科大源等可以选择。
+进入清华大学conda使用帮助：
+&lt;a class=&#34;link&#34; href=&#34;https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;命令添加&#34;&gt;命令添加
+&lt;/h3&gt;&lt;p&gt;进入shell，检查目前的镜像源&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda config --show channels
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;正常情况下只会有&lt;code&gt;defaults&lt;/code&gt;。
+使用&lt;code&gt;conda config --add default_channels&lt;/code&gt;命令添加默认镜像源&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda config --add default_channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda config --add default_channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda config --add default_channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;清除索引缓存&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; conda clean -i
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;文件添加&#34;&gt;文件添加
+&lt;/h3&gt;&lt;p&gt;各系统都可以通过修改用户目录下的 &lt;code&gt;.condarc&lt;/code&gt; 文件来使用镜像源。
+Windows用户无法直接创建名为&lt;code&gt;.condarc&lt;/code&gt;的文件，可先执行&lt;code&gt;conda config --set show_channel_urls yes&lt;/code&gt; 生成该文件之后再修改，文件生成的路径一般在&lt;code&gt;C:\Users\Usersname&lt;/code&gt;下。
+记事本打开文件进行编辑，用以下内容覆盖&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;channels:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  - defaults
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;show_channel_urls: true
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;default_channels:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;custom_channels:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  conda-forge: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  msys2: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  bioconda: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  menpo: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  pytorch-lts: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  deepmodeling: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;code&gt;channels&lt;/code&gt;、&lt;code&gt;default_channels&lt;/code&gt;、&lt;code&gt;custom_channels&lt;/code&gt;一共有三个设置项。
+如果运行 &lt;code&gt;conda install some_package&lt;/code&gt;命令，conda会按照先搜索&lt;code&gt;default_channels&lt;/code&gt;，然后搜索&lt;code&gt;channels&lt;/code&gt;。
+如果要使用&lt;code&gt;custom_channels&lt;/code&gt;，必须在命令后加上&lt;code&gt;-c&lt;/code&gt;选项，指定custom_channels的名称&lt;code&gt;conda install some_package -c conda-forge&lt;/code&gt;。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
