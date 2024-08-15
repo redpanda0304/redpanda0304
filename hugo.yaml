@@ -1,4 +1,4 @@
-baseurl: http://119.23.218.112/
+baseurl: redpanda0304.github.io
 languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 3
