@@ -76,10 +76,20 @@ conda create  -n --name
 conda create  -n test  python=3.7
 ```
 ### 指定镜像源
+```shell
 conda create -n test python=3.9 -c https://mirrors.sustech.edu.cn/anaconda/pkgs/main/ -y
+```
 ### 移除环境
 ```shell
 conda remove  -n --name
+```
+### 导出当前环境（包含自动安装的依赖）
+```shell
+conda env export > environment.yaml
+```
+### 导出当前环境（只包含明确安装的包，而不包括自动安装的依赖项）
+```shell
+conda env export --from-history > environment.yaml
 ```
 ### 移除包
 ```shell
