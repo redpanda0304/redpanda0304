@@ -20,4 +20,3 @@ ELK 是三个开源项目的首字母缩写，这三个项目分别是：Elastic
 简单来说，ELK是一个日志收集分析的技术栈。Logstash从多个数据源采集数据，Elasticsearch作为搜索引擎去查询数据，Kibana作为可视化工具显示图表和统计记录。那么就从核心的Elasticsearch开始学起来吧。
 
 ## 初识Elasticsearch
-![图片1](test.png)
