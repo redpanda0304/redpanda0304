@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on RedPanda&#39;s Note</title>
-        <link>http://localhost:1313/post/</link>
+        <link>//localhost:1313/post/</link>
         <description>Recent content in Posts on RedPanda&#39;s Note</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>miniforge3安装</title>
-        <link>http://localhost:1313/p/miniforge/</link>
+        <link>//localhost:1313/p/miniforge/</link>
         <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/miniforge/</guid>
-        <description>&lt;img src="http://localhost:1313/p/miniforge/miniforge-org.png" alt="Featured image of post miniforge3安装" /&gt;&lt;hr&gt;
+        <guid>//localhost:1313/p/miniforge/</guid>
+        <description>&lt;img src="//localhost:1313/p/miniforge/miniforge-org.png" alt="Featured image of post miniforge3安装" /&gt;&lt;hr&gt;
 &lt;h2 id=&#34;miniforge3安装下载&#34;&gt;miniforge3安装下载
 &lt;/h2&gt;&lt;p&gt;miniforge是一个完全开源免费的pyhton包管理软件，可以在商业环境下暂时替代anaconda的python环境管理功能。可以兼容常用的conda命令。&lt;/p&gt;
 &lt;p&gt;miniforge的官方网址：&lt;a class=&#34;link&#34; href=&#34;https://conda-forge.org/miniforge/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://conda-forge.org/miniforge/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/miniforge/miniforge-org.png&#34;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/p/miniforge/miniforge-org.png&#34;
 	width=&#34;2727&#34;
 	height=&#34;1894&#34;
 	
@@ -34,7 +34,7 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;其中资源是托管在github上的，国内的用户如果下载卡顿可以去清华大学镜像站进行下载：&lt;a class=&#34;link&#34; href=&#34;https://mirrors.tuna.tsinghua.edu.cn/github-release/conda-forge/miniforge/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://mirrors.tuna.tsinghua.edu.cn/github-release/conda-forge/miniforge/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/miniforge/miniforge-tsinghua.png&#34;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/p/miniforge/miniforge-tsinghua.png&#34;
 	width=&#34;2569&#34;
 	height=&#34;691&#34;
 	
@@ -50,7 +50,7 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;LatestRelease/&lt;/code&gt;目录是最新的版本资源，&lt;code&gt;Release 24.3.0-0/&lt;/code&gt;目录也是最新24.3.0-0的版本资源。这里面有名字叫miniforge和mamambaforge的资源。这相当与两个分支，具体的区别很小，但是官方建议安装miniforge。&lt;/p&gt;
 &lt;p&gt;需要根据cpu的指令集和操作系统来选择对应的版本进行下载。目前所需的x64指令集、windows操作系统，因此选择&lt;code&gt;Miniforge3-Windows-x86_64.exe&lt;/code&gt;下载。
-&lt;img src=&#34;http://localhost:1313/p/miniforge/release.png&#34;
+&lt;img src=&#34;//localhost:1313/p/miniforge/release.png&#34;
 	width=&#34;2368&#34;
 	height=&#34;226&#34;
 	
@@ -65,7 +65,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;下载完毕点击进行安装。一直点继续。这里可以选择all useer，just me只是对当前windows用户安装，all useer是以管理员安装，所有用户都可用，需要管理员权限。
-&lt;img src=&#34;http://localhost:1313/p/miniforge/install1.png&#34;
+&lt;img src=&#34;//localhost:1313/p/miniforge/install1.png&#34;
 	width=&#34;754&#34;
 	height=&#34;585&#34;
 	
@@ -78,7 +78,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;选择安装目录，注意，这里的安装目录&lt;strong&gt;不能有中文&lt;/strong&gt;，否则会有奇奇怪怪的问题。
-&lt;img src=&#34;http://localhost:1313/p/miniforge/install2.png&#34;
+&lt;img src=&#34;//localhost:1313/p/miniforge/install2.png&#34;
 	width=&#34;754&#34;
 	height=&#34;585&#34;
 	
@@ -96,7 +96,7 @@
 &lt;li&gt;将miniforge3注册为系统的python环境。允许其他程序VSCode、PyCharm等可以自动检测miniforge3作为主要的python环境&lt;/li&gt;
 &lt;li&gt;完成清除后清除包缓存&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/miniforge/install3.png&#34;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/p/miniforge/install3.png&#34;
 	width=&#34;754&#34;
 	height=&#34;585&#34;
 	
@@ -111,7 +111,7 @@
 &lt;p&gt;安装完成之后还需要配置环境变量。anaconda无需环境变量，但是miniforge需要手动配置环境变量。&lt;/p&gt;
 &lt;h2 id=&#34;配置环境变量&#34;&gt;配置环境变量
 &lt;/h2&gt;&lt;p&gt;对于windows系统，需要配置在 &lt;code&gt;PATH&lt;/code&gt;里面配置&lt;code&gt;D:\miniforge&lt;/code&gt;、&lt;code&gt;D:\miniforge\Scripts&lt;/code&gt;、&lt;code&gt;C:\miniforge\Library\bin&lt;/code&gt;三个目录的环境变量。&lt;code&gt;\Scripts&lt;/code&gt;目录下 有&lt;code&gt;pip.exe&lt;/code&gt;、&lt;code&gt;conda.exe&lt;/code&gt;、&lt;code&gt;mamba.exe&lt;/code&gt; 等文件，如果配置错误可能会到这些命令用不了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/miniforge/env-set.png&#34;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/p/miniforge/env-set.png&#34;
 	width=&#34;1140&#34;
 	height=&#34;942&#34;
 	
@@ -126,7 +126,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;环境变量配置完成之后，新打开shell，输入&lt;code&gt;mamba -V&lt;/code&gt;查看版本。miniforge最小化包含了conda和mamba。两者常用命令通用。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/miniforge/cmd.png&#34;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/p/miniforge/cmd.png&#34;
 	width=&#34;1368&#34;
 	height=&#34;685&#34;
 	
@@ -303,10 +303,10 @@ Windows用户无法直接创建名为&lt;code&gt;.condarc&lt;/code&gt;的文件�
         </item>
         <item>
         <title>ELK日志分析平台</title>
-        <link>http://localhost:1313/p/elk/</link>
+        <link>//localhost:1313/p/elk/</link>
         <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/elk/</guid>
+        <guid>//localhost:1313/p/elk/</guid>
         <description>&lt;hr&gt;
 &lt;h2 id=&#34;什么是elk&#34;&gt;什么是ELK
 &lt;/h2&gt;&lt;p&gt;ELK 是三个开源项目的首字母缩写，这三个项目分别是：Elasticsearch、Logstash 和 Kibana 。&lt;/p&gt;
@@ -317,7 +317,7 @@ Windows用户无法直接创建名为&lt;code&gt;.condarc&lt;/code&gt;的文件�
 &lt;/ul&gt;
 &lt;p&gt;简单来说，ELK是一个日志收集分析的技术栈。Logstash从多个数据源采集数据，Elasticsearch作为搜索引擎去查询数据，Kibana作为可视化工具显示图表和统计记录。那么就从核心的Elasticsearch开始学起来吧。&lt;/p&gt;
 &lt;h2 id=&#34;初识elasticsearch&#34;&gt;初识Elasticsearch
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/elk/test.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/p/elk/test.png&#34;
 	width=&#34;2727&#34;
 	height=&#34;1894&#34;
 	
@@ -335,14 +335,14 @@ Windows用户无法直接创建名为&lt;code&gt;.condarc&lt;/code&gt;的文件�
         </item>
         <item>
         <title>Markdown Syntax Guide</title>
-        <link>http://localhost:1313/p/markdown-syntax-guide/</link>
+        <link>//localhost:1313/p/markdown-syntax-guide/</link>
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/markdown-syntax-guide/</guid>
-        <description>&lt;img src="http://localhost:1313/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown Syntax Guide" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
+        <guid>//localhost:1313/p/markdown-syntax-guide/</guid>
+        <description>&lt;img src="//localhost:1313/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown Syntax Guide" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
 &lt;h2 id=&#34;headings&#34;&gt;Headings
 &lt;/h2&gt;&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg&#34;
 	width=&#34;1000&#34;
 	height=&#34;667&#34;
 	
@@ -356,7 +356,7 @@ Windows用户无法直接创建名为&lt;code&gt;.condarc&lt;/code&gt;的文件�
 		data-flex-basis=&#34;359px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/p/markdown-syntax-guide/miniforge_org.png&#34;
+&lt;img src=&#34;//localhost:1313/p/markdown-syntax-guide/miniforge_org.png&#34;
 	width=&#34;2727&#34;
 	height=&#34;1894&#34;
 	
@@ -593,10 +593,10 @@ Windows用户无法直接创建名为&lt;code&gt;.condarc&lt;/code&gt;的文件�
         </item>
         <item>
         <title>Math Typesetting</title>
-        <link>http://localhost:1313/p/math-typesetting/</link>
+        <link>//localhost:1313/p/math-typesetting/</link>
         <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/math-typesetting/</guid>
+        <guid>//localhost:1313/p/math-typesetting/</guid>
         <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;
 &lt;p&gt;In this example we will be using &lt;a class=&#34;link&#34; href=&#34;https://katex.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;KaTeX&lt;/a&gt;&lt;/p&gt;
@@ -634,11 +634,11 @@ $$&lt;/p&gt;</description>
         </item>
         <item>
         <title>Emoji Support</title>
-        <link>http://localhost:1313/p/emoji-support/</link>
+        <link>//localhost:1313/p/emoji-support/</link>
         <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/emoji-support/</guid>
-        <description>&lt;img src="http://localhost:1313/p/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash.jpg" alt="Featured image of post Emoji Support" /&gt;&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
+        <guid>//localhost:1313/p/emoji-support/</guid>
+        <description>&lt;img src="//localhost:1313/p/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash.jpg" alt="Featured image of post Emoji Support" /&gt;&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
 &lt;p&gt;The &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/functions/emojify/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;code&gt;emojify&lt;/code&gt;&lt;/a&gt; function can be called directly in templates or &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Inline Shortcodes&lt;/a&gt;.&lt;/p&gt;

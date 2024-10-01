@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Elasticsearch on RedPanda&#39;s Note</title>
-        <link>http://localhost:1313/categories/elasticsearch/</link>
+        <link>//localhost:1313/categories/elasticsearch/</link>
         <description>Recent content in Elasticsearch on RedPanda&#39;s Note</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/elasticsearch/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/elasticsearch/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>ELK日志分析平台</title>
-        <link>http://localhost:1313/p/elk/</link>
+        <link>//localhost:1313/p/elk/</link>
         <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/elk/</guid>
+        <guid>//localhost:1313/p/elk/</guid>
         <description>&lt;hr&gt;
 &lt;h2 id=&#34;什么是elk&#34;&gt;什么是ELK
 &lt;/h2&gt;&lt;p&gt;ELK 是三个开源项目的首字母缩写，这三个项目分别是：Elasticsearch、Logstash 和 Kibana 。&lt;/p&gt;
@@ -23,7 +23,7 @@
 &lt;/ul&gt;
 &lt;p&gt;简单来说，ELK是一个日志收集分析的技术栈。Logstash从多个数据源采集数据，Elasticsearch作为搜索引擎去查询数据，Kibana作为可视化工具显示图表和统计记录。那么就从核心的Elasticsearch开始学起来吧。&lt;/p&gt;
 &lt;h2 id=&#34;初识elasticsearch&#34;&gt;初识Elasticsearch
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/elk/test.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/p/elk/test.png&#34;
 	width=&#34;2727&#34;
 	height=&#34;1894&#34;
 	
