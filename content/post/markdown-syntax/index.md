@@ -101,6 +101,7 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 | *italics* | **bold** | `code` |
 ```
 
+
 | A                                                        | B                                                                                                             | C                                                                                                                                    | D                                                 | E                                                          | F                                                                    |
 |----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|------------------------------------------------------------|----------------------------------------------------------------------|
 | Lorem ipsum dolor sit amet, consectetur adipiscing elit. | Phasellus ultricies, sapien non euismod aliquam, dui ligula tincidunt odio, at accumsan nulla sapien eget ex. | Proin eleifend dictum ipsum, non euismod ipsum pulvinar et. Vivamus sollicitudin, quam in pulvinar aliquam, metus elit pretium purus | Proin sit amet velit nec enim imperdiet vehicula. | Ut bibendum vestibulum quam, eu egestas turpis gravida nec | Sed scelerisque nec turpis vel viverra. Vivamus vitae pretium sapien |
@@ -220,25 +221,33 @@ rev = "11f52b8c72fc3a568e8bb4a4cd1f3eb025ac2e13"
 ```
 
 `<sub>`下标元素
+
 H<sub>2</sub>O
+
 ```
 H<sub>2</sub>O
 ```
 
 `<sup>`上标元素
+
 X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
+
 ```
 X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 ```
 
 `<kbd>`键盘输入元素
+
 Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.
+
 ```
 Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.
 ```
 
 `mark`元素
+
 Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+
 ```
 Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
 ```
@@ -246,6 +255,7 @@ Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and ot
 ## Hyperlinked image 超链接图片
 
 [![Google](https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png)](https://google.com)
+
 ```
 [![Google](https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png)](https://google.com)
 ```
